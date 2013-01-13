@@ -1,0 +1,586 @@
+body	
+{
+	background: #fff;
+	font-family: "Tahoma", "Arial", sans-serif;
+	color:#333;
+	font-size:1em;
+}
+
+
+/* FONTS */
+@font-face 
+{
+    font-family: "Trajan Pro";
+    src: url("../fonts/TrajanPro-Regular.otf") format("opentype");
+}
+@font-face 
+{
+    font-family: "Trajan Pro Bold";
+    src: url("../fonts/TrajanPro-Bold.otf") format("opentype");
+}
+
+
+/* HEADER */
+
+h1 a {
+	font-family: "Trajan Pro Bold", "Times New Roman", serif;
+}
+
+header a {
+	text-decoration:none;
+	color:#630;
+}
+
+.titlebar a {
+	text-decoration:none;
+	color: #fff3d6;
+}
+
+h1 a {
+	font-size:2em;
+}
+
+header .logo a
+{
+	position: relative;
+	top: 7px;
+	font-size:2.2em;
+	letter-spacing: 0.1px;
+	word-spacing: -6px;
+}
+
+.moved 
+{
+	position:relative;
+	top:3em;
+	overflow:visible;
+}
+
+.line {
+	border-bottom:1px solid #630;
+}
+
+.row {
+	margin-top:.5em;
+	margin-bottom:.5em;
+}
+
+.cart-contents {
+	border-left-style:solid;
+	border-left-width:thick;
+}
+
+header .check input[id="search"]
+{
+	font-family: "Calibri","Helvetica", sans-serif;
+	text-transform: uppercase;
+	color: #444;
+	border: #888 solid 1px;
+	background: #dbcca9;
+}
+
+header .cart input[id="login-username"]
+{
+	width: 8em;
+}
+
+header .cart input[id="login-password"]
+{
+	width: 8em;
+}
+
+header .cart input[id="login-submit"]
+{
+	font-family: "Calibri","Helvetica", sans-serif;
+	text-transform: uppercase;
+	color: #444;
+	border: #888 solid 1px;
+	background: #dbcca9;		
+	width: 4.5em;
+}
+
+header .cart a#login-signup
+{
+	font-family: "Calibri","Helvetica", sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #444;
+	/*border: #888 solid 1px;*/
+	/*background: #dbcca9;		*/
+	width: 4.5em;
+}
+
+
+/* NAVIGATION */
+
+nav li a
+{
+	font-family: "Calibri","Helvetica", sans-serif;
+	font-size: 12px;
+	color: #444;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+}
+
+nav li a:hover
+{
+	color: #74C9DB;
+}
+
+/* FOOTER */
+
+footer {
+	text-align:center;
+}
+
+/* SIGN UP */
+
+#search .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+#search .fourcol input{
+	width:25em;
+	margin:5px;
+}
+
+/* SEARCH */
+
+#search {
+	background: #ddd;
+}
+
+#search .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+#search .row .threecol p {
+	padding:.6em;
+}
+
+#search .row .threecol h3 {
+	padding:.3em;
+}
+
+#search h3 {
+	font-weight:bold;
+}
+
+#search a {
+	text-decoration:none;
+	color:#630;
+}
+
+#search .row .threecol  .product{
+	background-color:#EBEBEB;
+	border:solid .5px #630;
+	border-radius:7px;
+    height:450px;
+    position:relative;
+    overflow:hidden;
+	text-align:center;
+}
+
+#search .row .threecol .product .crop {
+    height:250px;
+	min-height:250px;
+	min-width:250px;
+    position:relative;
+    overflow:hidden;
+	text-align:center;
+}
+
+#search .row .threecol .product .crop img 
+{	
+	display:block;    
+	border-radius:5px;
+
+	/* trying to resize images so they occupy the same size div, without being stretched weirdly.  */	
+	width: 100%;
+	height: 230px;		
+}
+
+/* HOME */
+
+body#home
+{
+	background: #ddd;
+}
+
+.titlebar {
+
+	position:relative;
+	z-index:2;
+	text-align:center;
+	font-size:2em;
+	font-size-adjust:inherit;
+	background: rgba(116, 69, 8, 0.5);
+	color: #fff3d6;
+	font-weight: bold;
+	-moz-text-shadow: 1px 1px 1px #744508;
+	-webkit-text-shadow: 1px 1px 1px #744508;
+	text-shadow: 1px 1px 1px #744508;
+	text-align: center;
+	height:110%;
+}
+
+.featured 
+{
+	position:relative;
+	z-index:1;
+	margin-top:-30%;
+}
+
+.featured img 
+{
+	width:100%;
+}
+
+.container .back p 
+{
+	padding-top:.5em;
+	padding-bottom:1em;
+}
+
+/* CONTACT */
+
+#contact {
+	background: #ddd;
+}
+
+#contact .container .people
+{
+	padding:1em;
+	background-color:#ebddce;
+	border:2px solid #804000;
+	border-radius:6px;
+}
+
+#contact .container .titlebar 
+{
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+
+/* POLICIES */
+
+#policies {
+	background: #ddd;
+}
+
+#policies .row .titlebar 
+{
+	margin-bottom:.5em;
+	margin-top:.5em;
+	padding:.3em;
+}
+
+#policies .row .first .titlebar
+{
+	margin-top:-.5em;
+	padding-top:.75em;
+}
+
+/* PRODUCTS */
+
+#products {
+	background: #ddd;
+}
+
+#products .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+#products .row .threecol p {
+	padding:.6em;
+}
+
+#products .row .threecol h3 {
+	padding:.3em;
+}
+
+#products h3 {
+	font-weight:bold;
+}
+
+#products a {
+	text-decoration:none;
+	color:#630;
+}
+
+#products .row .threecol .product {
+    height:450px;
+    position:relative;
+    overflow:hidden;
+	text-align:center;
+}
+
+#products .row .threecol .product .crop {
+    height:250px;
+	min-height:250px;
+	min-width:250px;
+    position:relative;
+    overflow:hidden;
+	text-align:center;
+}
+
+#products .row .threecol .product .crop img 
+{	
+	display:block;    
+	border-radius:5px;
+
+	/* trying to resize images so they occupy the same size div, without being stretched weirdly.  */	
+	width: 100%;
+	height: 230px;		
+}
+
+
+#products .row .rating {
+	width:1.3em;
+}
+
+#products .row #rating {
+	padding:3em;
+}
+
+/* mobile */
+@media(max-width: 770px){
+	#products .row .threecol .product .crop img 
+	{
+		width: 52%;
+		height: 102%;
+		margin: auto;
+	}
+}
+
+#products .row .threecol .product
+{
+	background-color:#EBEBEB;
+	border:solid .5px #630;
+	border-radius:7px;	
+	margin-bottom:2em;
+}
+
+/* CART PRODUCTS */
+
+#cartProducts {
+	background: #ddd;
+}
+
+#cartProducts .cartContents .row 
+{	
+	border-bottom: 1px solid #804000;
+}
+
+#cartProducts .cartContents .row .product {
+	/*padding:.5em;*/
+}
+
+#cartProducts .cartContents .product img.cart-product-image
+{
+	width: 6em;
+	height: 6em;
+}
+
+#cartProducts .row .total {
+	border-top:2px solid #804000;
+}
+
+#cartProducts .row .continue {
+	background-color:#ebddce;
+	margin-top:.5em;
+	margin-bttom:.5em;
+	padding:1em;
+	text-transform:uppercase;
+	font-size:.9em;
+}
+
+#cartProducts .row .continue a{
+	color:#000;
+	padding:2em;
+	font-size: 0.85em;
+	white-space: nowrap;	
+	text-decoration:none;
+}
+
+#cartProducts .row .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+/* PRODUCTS PAGE LIGHTBOX & RELATED FORMS */
+
+div.lBox	{
+	/* Parent div of each individual lightbox */
+	overflow:hidden;
+	background-color:#EBDDCE;
+	border:none;
+	vertical-align:baseline;
+}
+.lBox h3	{
+	/* Product title in lightbox styles */
+}
+.lBox .price	{
+	/* Product price in lightbox styles */
+}
+.lBox img	{
+	/*Product photo in the lightbox styles */
+}
+.lBox h4	{
+	/* Style the "Reviews" heading in the lightbox */
+}
+.radios li	{
+
+}
+
+.radios li input	{
+	/* Use this to style the rating radio buttons when someone is leaving a review */
+	padding:1em;
+}
+
+/* Review Styles */
+
+.review p	{
+	/* Style review text */
+}
+/* Show rating images in place of numerical rating values
+	This is for things that have a rating, not for someone MAKING a rating */
+.rating-0	{
+
+}
+.rating-1	{
+
+}
+.rating-2	{
+	
+}
+.rating-3	{
+
+}
+.rating-4	{
+
+}
+.rating-5	{
+
+}
+
+/* REVIEW FORM styles */
+
+#review-text	{
+	/* Style the textarea that the user types their review into here */
+}
+
+.review-submit	{
+	/* Review form submit button */
+}
+
+/* CHECKOUT */
+#checkout .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+#checkout {
+	background: #ddd;
+}
+
+#checkout	legend	{
+font-weight: bold;
+}
+
+#checkout fieldset	{
+border: #777 solid 1px;
+padding-top:5px;	
+padding-bottom:5px;
+}
+
+#checkout .container ul	{
+
+}
+
+#checkout .container ul input	{
+display: block;
+width:25em;
+margin:5px;
+}
+
+#checkout fieldset.submit	{
+border: #ddd solid 0px;
+}
+
+#checkout fieldset.submit input	{
+float:right;
+font-family: "Calibri","Helvetica", sans-serif;
+text-transform: uppercase;
+color: #444;
+border: #888 solid 1px;
+background: #dbcca9;
+font-size: 2em;
+
+}
+
+.buy-button{
+	background: #ddd;
+	border:solid thin #630;
+	cursor: pointer;
+	padding:.1em;
+	margin:1em;
+}
+
+.buy-button:hover{
+	color: #74C9DB;
+}
+
+.review-submit {
+	background: #ddd;
+	border:solid thin #630;
+	cursor: pointer;
+	padding:.1em;
+	margin:1em;
+}
+
+.review-submit:hover {
+	color: #74C9DB;
+}
+
+/* CONFIRM */
+#confirm .titlebar {
+	margin-bottom:.5em;
+	padding:.3em;
+}
+
+#confirm {
+	background: #ddd;
+}
+
+#confirm tr {
+	padding:.3em;
+}
+
+#confirm td {
+	padding:.3em;
+	padding-left:1em;
+	padding-right:1em;
+}
+
+#confirm h3 {
+	font-size:1.5em;
+	padding-bottom:.5em;
+}
+
+
+/* CRUD */
+body#crud form legend
+{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+#crud-create-product-form input, #crud-remove-product-form input, #crud-update-product-form input
+{
+	margin-bottom: 3px;
+}
